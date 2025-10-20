@@ -248,6 +248,18 @@ They are likely to be siblings if there is an encompassing span.
 | `gen_ai.usage.output_tokens`    | `17`                                        |
 | `gen_ai.usage.input_tokens`     | `47`                                        |
 | `gen_ai.response.finish_reasons`| `["tool_calls"]`                            |
+| `gen_ai.tool.definitions`       | [`gen_ai.tool.definitions`](#gen-ai-tool-definitions-tool-call-span-0) |
+
+<span id="gen-ai-tool-definitions-tool-call-span-0">`gen_ai.tool.definitions` value</span>
+
+```json
+[
+  {
+    "type": "function",
+    "name": "get_weather"
+  }
+]
+```
 
 **Tool call:**
 
